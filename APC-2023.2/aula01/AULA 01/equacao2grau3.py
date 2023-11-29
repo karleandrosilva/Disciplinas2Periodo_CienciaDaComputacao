@@ -1,5 +1,4 @@
 # DESVIO CONDICIONAL - DESAFIO 2
-
 a = int(input('informe o primeiro número: '))
 b = int(input('informe o segundo número: '))
 c = int(input('informe o terceiro número: '))
