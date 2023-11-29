@@ -2,7 +2,6 @@
 
 angulo1 = int(input('Informe o valor do primeiro ângulo: '))
 angulo2 = int(input('Informe o valor do segundo ângulo: '))
-
 angulo3 = angulo1 + angulo2 - 180
 
 print(f'O valor do terceiro ângulo é: {angulo3}')

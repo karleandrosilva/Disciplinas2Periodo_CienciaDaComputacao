@@ -17,7 +17,3 @@ elif c > media:
     print(f'O número {c} está acima da média')
 else:
     print('Tente novamente')
-
-
-
-
