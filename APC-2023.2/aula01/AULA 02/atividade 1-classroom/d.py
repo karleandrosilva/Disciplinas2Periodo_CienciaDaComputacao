@@ -1,11 +1,12 @@
 # D) Faça programa que recebe um tempo dado em segundos e calcula quantos dias, horas, minutos e segundos ele representa.
 
 # // = divisao inteira
+# % = o resto 
 
-tempo = float(input('Informe os segundos: '))
+segundos = int(input('Informe os segundos: '))
 
-dia = 86.400
-hora = 3.600
+dia = 86400
+hora = 3600
 minutos = 60
 
 quant_dia = segundos // dia
@@ -15,4 +16,4 @@ segundos = segundos % hora
 quant_minutos = segundos // minutos
 segundos = segundos % minutos
 
-print(f'{quant_dia},{quant_hora},{quant_minutos},{segundos}')
+print(f'{quant_dia} dias,{quant_hora} horas,{quant_minutos} minutos,{segundos} segundos.')
