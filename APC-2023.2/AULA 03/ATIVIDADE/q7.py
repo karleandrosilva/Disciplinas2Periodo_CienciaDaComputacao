@@ -21,4 +21,4 @@ elif salario >=700 and salario < 1500:
 elif salario > 1500:
     novo_salario = salario + (salario * (5/100))
 
-print(f'SEU SALÁRIO SERÁ DE: {novo_salario}')
+print(f'SEU NOVO SALÁRIO SERÁ DE: {novo_salario}')
