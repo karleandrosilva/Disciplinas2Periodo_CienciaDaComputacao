@@ -19,3 +19,6 @@ if reta1 < (reta2 + reta3) and reta2 < (reta1 + reta3) and reta3 < (reta1 + reta
 
     elif reta1 != reta2 and reta1 != reta3 and reta2 != reta3:
         print('O TRIÂNGULO É ESCALENO!')
+
+else:
+    print(f'OS VALORES {reta1}, {reta2} e {reta3} NÃO FORMAM UM TRIÂNGULO!')
