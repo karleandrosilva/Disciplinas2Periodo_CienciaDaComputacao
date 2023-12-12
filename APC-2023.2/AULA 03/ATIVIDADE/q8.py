@@ -2,7 +2,7 @@
 
 numero = int(input('Informe um número: '))
 
-if numero // 2:
+if numero % 2 == 0:
     print(f'O número {numero} que você inseriu, é PAR!')
 else:
     print(f'O número {numero} que você inseriu, é ÍMPAR!')
