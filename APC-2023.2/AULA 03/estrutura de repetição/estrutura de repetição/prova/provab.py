@@ -16,4 +16,4 @@ while True:
         cont = cont + 1
 
 resultado = novo_resultado / soma_pesos
-print(f'{resultado:.2f}')
+print(f'{resultado}')
