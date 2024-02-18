@@ -1,3 +1,5 @@
+# 
+
 lista1 = [4, 1, 7, 6, 8, 5]
 lista2 = [1, 2, 3, 4, 5, 6]
 contem = []
@@ -19,7 +21,6 @@ for m in lista1:
 
 PEB = (len(contem) / len(lista1)) * 100
 PEA = (len(contem) / len(lista2)) * 100
-
 
 
 if len(lista1) == len(lista2):
