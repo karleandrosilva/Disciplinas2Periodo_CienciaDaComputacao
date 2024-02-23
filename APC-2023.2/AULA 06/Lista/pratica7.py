@@ -1,5 +1,3 @@
-# 
-
 lista1 = [4, 1, 7, 6, 8, 5]
 lista2 = [1, 2, 3, 4, 5, 6]
 contem = []
@@ -22,13 +20,5 @@ for m in lista1:
 PEB = (len(contem) / len(lista1)) * 100
 PEA = (len(contem) / len(lista2)) * 100
 
-
-if len(lista1) == len(lista2):
-    for i in lista1:
-        for g in lista2:
-            if i == g:
-                cont += 1
-                lista3.append(i)
-                break
-            
-print(lista3)
+print(f'{PEB}% de A em B\n{PEA}% de B em A.')
+print(f'Contem nas duas listas: {contem}\nContem em A e nao em B: {cntAnB}\n Contem B e não em A: {cntBnA}')
