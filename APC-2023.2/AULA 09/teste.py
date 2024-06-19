@@ -9,5 +9,9 @@ seminarios = [9,8,7,6]
 artigos = [9,8,7,6]
 df = pd.DataFrame({'aluno': alunos,'trabalho': trabalhos, 'prova': provas,
 'seminário': seminarios, 'artigo': artigos})
-df.to_csv('notas.csv',index=False)
+df.to_csv('dados/notas.csv',index=False)
 print(df)
+
+
+
+          
